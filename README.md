@@ -1,7 +1,7 @@
 # rules
 A java library that can be used to build a rules engine I extracted it from an adviser I build for a client. It probaly need some work to be used standalone.
 
-it supports basic logical and arithmetic expressions for integer and string types, this can be estended to more types.
+it supports basic logical and arithmetic expressions for integer and string types, this can be extended to more types.
 
 #usage:
     Expression expression = new Expression("#BIG > 555 * ( #SMALL + 34 )");
